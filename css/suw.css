@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding-top: 90px; 
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+/*****************************  NAVS   *********************************************/
+.suw-nav{
+    background: #21292C;
+    border-bottom: 4px solid #0E1113;
+}
+
+.suw-brand, .navbar-nav a{
+     color: #F2F2F2 !important;
+}
+
+
+.navbar-nav a{
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/*****************************  BUTTONS   *********************************************/
+
+.suw-btn{
+    background: #4294F9;
+    border: none;
+    padding: 15px 25px;
+    font-size: 15px;
+}
+
+/*****************************  COMPONENTS   *********************************************/
+.suw-post{
+    background: #FFF;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    padding: 30px 10px;
+    margin-bottom: 20px;
+}
+
+.suw-tags{
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.suw-tags ul li{
+    background: grey;
+    display: inline-block;
+    list-style: none;
+    margin: 0px 10px 0px 0px;
+    padding: 5px 10px; 
+    font-size: 15px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.suw-tags ul li:last-child{
+    margin-left: 0px;
+}
+
+.suw-tags ul li a{
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+.suw-tags ul li:hover{
+    background: #21292C;
+}
+
+
+
+/*.tag-green{
+    background: #42F95A; 
+}
+
+.tag-yellow{
+    background: #BAF942; 
+}
+
+.tag-orange{
+    background: #F9B142; 
+}
+
+.tag-red{
+    background: #F94242; 
+}
+
+.tag-blue{
+    background: #4642F9; 
+}*/
+
+
+
+/*****************************  MODAL   *********************************************/
+
+.modal-content{
+    border-radius: 3px;
+}
+
+.modal-header{
+    background-color: #F8FAFB;
+}
+
+.modal-body{
+  background-color: #FFF;
+}

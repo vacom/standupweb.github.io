@@ -1,0 +1,19 @@
+{
+  "name": "Suw",
+  "version": "1.0.0",
+  "description": "The best resources for a web developer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web",
+    "developer",
+    "fron-end",
+    "resourses",
+    "free",
+    "opensource"
+  ],
+  "author": "Vitor Amaral",
+  "license": "ISC"
+}

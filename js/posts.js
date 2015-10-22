@@ -1,5 +1,12 @@
 var posts = [
  	{
+		"name":"DigitalOcean", 
+		"date":"22/10/2015",
+		"tags":"Tools",
+		"url":"https://www.digitalocean.com/",
+		"imgSrc":"imgs/screens/digitalocean.png"
+	},
+	{
 		"name":"Mandrill", 
 		"date":"21/10/2015",
 		"tags":"Tools",

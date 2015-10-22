@@ -1,4 +1,11 @@
 var posts = [
+	{
+		"name":"Pixate", 
+		"date":"22/10/2015",
+		"tags":"Design Tools",
+		"url":"http://www.pixate.com/",
+		"imgSrc":"imgs/screens/pixate.png"
+	},
  	{
 		"name":"DigitalOcean", 
 		"date":"22/10/2015",
@@ -30,21 +37,21 @@ var posts = [
 	{
 		"name":"Electron", 
 		"date":"20/10/2015",
-		"tags":"Code, Desktop, Tools",
+		"tags":"Code Desktop Tools",
 		"url":"http://electron.atom.io/",
 		"imgSrc":"imgs/screens/electron.png"
 	},
 	{
 		"name":"Photon – Desktop app framework", 
 		"date":"20/10/2015",
-		"tags":"Code, Desktop, Tools, Frameworks",
+		"tags":"Code Desktop Tools Frameworks",
 		"url":"http://photonkit.com/",
 		"imgSrc":"imgs/screens/photon.png"
 	},
 	{
 		"name":"Bootstrap Framework", 
 		"date":"20/10/2015",
-		"tags":"Design, Web, Tools, Frameworks, css",
+		"tags":"Design Web, Tools Frameworks css",
 		"url":"http://getbootstrap.com/",
 		"imgSrc":"imgs/screens/bootstrap.png"
 	}

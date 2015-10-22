@@ -61,6 +61,15 @@ footer {
     margin-bottom: 20px;
 }
 
+.suw-post h4{
+    color: grey;
+}
+
+.suw-post .post-tags{
+    font-weight: 800;
+    
+}
+
 .suw-tags{
     text-align: center;
     margin-bottom: 20px; 

@@ -51,7 +51,7 @@ var posts = [
 	{
 		"name":"Bootstrap Framework", 
 		"date":"20/10/2015",
-		"tags":"Design Web, Tools Frameworks css",
+		"tags":"Design Web Tools Frameworks css",
 		"url":"http://getbootstrap.com/",
 		"imgSrc":"imgs/screens/bootstrap.png"
 	}

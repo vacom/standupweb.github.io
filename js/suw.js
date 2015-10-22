@@ -1,10 +1,10 @@
-/*(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-29237910-9', 'auto');
-  ga('send', 'pageview');*/
+  ga('send', 'pageview');
   
   
  
@@ -112,7 +112,7 @@ function suwTimeline(arr) {
                 '<h2>'+arr[i].name+'</h2> '+
                 '<h4>'+arr[i].date+'</h4> '+
                 '<p class="post-tags '+arr[i].tags+'">'+arr[i].tags+'</p> '+
-                '<a class="btn btn-primary suw-btn" href="'+arr[i].url+'" target="_blank">View Project</a>  <div class="addthis_sharing_toolbox"></div>'+
+                '<a class="btn btn-primary suw-btn" href="'+arr[i].url+'" target="_blank">View Project</a>  <div style="margin-top: 25px;" class="addthis_sharing_toolbox"></div>'+
             '</div> </div>';
            
     }

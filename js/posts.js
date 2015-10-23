@@ -1,5 +1,12 @@
 var posts = [
 	{
+		"name":"Flarum", 
+		"date":"23/10/2015",
+		"tags":"Code Tools Web",
+		"url":"http://flarum.org",
+		"imgSrc":"imgs/screens/flarum.png"
+	},
+	{
 		"name":"Koala", 
 		"date":"23/10/2015",
 		"tags":"Code Tools",

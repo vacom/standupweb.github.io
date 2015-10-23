@@ -52,6 +52,16 @@ footer {
     font-size: 15px;
 }
 
+.suw-search-btn{
+    z-index: 100;
+}
+
+.suw-search-btn:hover{
+    cursor: default;
+    color: #323C40;
+}
+
+
 /*****************************  COMPONENTS   *********************************************/
 .suw-post{
     background: #FFF;

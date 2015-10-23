@@ -5,8 +5,6 @@
 
   ga('create', 'UA-29237910-9', 'auto');
   ga('send', 'pageview');
-  
-  
  
   $(".suw-dropdown li a" ).click(function() {
        var option = $(this).text();
@@ -29,10 +27,7 @@
                     console.log("nao encontrou");
                 }
         }
-      
   });
-  
-
 
 function sendMail(name,url,urlimg,tags,email) {
 
@@ -63,6 +58,7 @@ function sendMail(name,url,urlimg,tags,email) {
     return true;
 }
 
+//send email with the project information
 $( "#sendProject" ).click(function() {
 
     var name = $('#name').val();
@@ -96,7 +92,7 @@ $( "#sendProject" ).click(function() {
     }
 });
 
-
+//creation of the posts
 function suwTimeline(arr) {
     var content = "";
     var i;
@@ -109,7 +105,7 @@ function suwTimeline(arr) {
                 '</a> '+
             '</div> '+
             '<div class="col-md-5"> '+
-                '<h2>'+arr[i].name+'</h2> '+
+                '<h2 class="suw-post-title">'+arr[i].name+'</h2> '+
                 '<h4>'+arr[i].date+'</h4> '+
                 '<p class="post-tags '+arr[i].tags+'">'+arr[i].tags+'</p> '+
                 '<a class="btn btn-primary suw-btn" href="'+arr[i].url+'" target="_blank">View Project</a>  <div style="margin-top: 25px;" class="addthis_sharing_toolbox"></div>'+
@@ -118,3 +114,23 @@ function suwTimeline(arr) {
     }
     $("#suwTimeline").html(content);
 };
+
+//Real time search the DOM
+$(document).on("keyup", "#suw-search", function(){
+    var search = $(this).val();
+    console.log($( ".suw-post:contains('"+search+"')" ).length);
+    
+    if(search == ""){
+        $("p.post-tags").parent().parent().show();
+    }else{
+        if ($(".suw-post:contains('"+search+"')").length) {
+            $("p.post-tags").parent().parent().hide();
+            $("p."+search).parent().parent().show();
+            console.log("encontrou");
+        }else {
+            $("p.post-tags").parent().parent().hide();
+            console.log("nao encontrou");
+        }
+    }
+    
+});

@@ -114,7 +114,7 @@ function suwTimeline(arr) {
                 '<p class="post-tags '+arr[i].tags+'">'+arr[i].tags+'</p> '+
                 '<a class="btn btn-primary suw-btn" href="'+arr[i].url+'" target="_blank">View Project</a>  <div style="margin-top: 25px;" class="addthis_sharing_toolbox"></div>'+
             '</div> </div>';
-           
+            
     }
     $("#suwTimeline").html(content);
 };

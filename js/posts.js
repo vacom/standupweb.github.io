@@ -1,5 +1,12 @@
 var posts = [
 	{
+		"name":"Visual Studio Code", 
+		"date":"23/10/2015",
+		"tags":"Code Tools",
+		"url":"https://code.visualstudio.com/",
+		"imgSrc":"imgs/screens/vscode.png"
+	},
+	{
 		"name":"Pixate", 
 		"date":"22/10/2015",
 		"tags":"Design Tools",

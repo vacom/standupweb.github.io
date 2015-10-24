@@ -1,10 +1,10 @@
 var posts = [
 	{
-		"name":"Nodejs", 
+		"name":"Krakenjs", 
 		"date":"24/10/2015",
 		"tags":"Code Web",
-		"url":"https://nodejs.org",
-		"imgSrc":"imgs/screens/nodejs.png"
+		"url":"http://krakenjs.com/",
+		"imgSrc":"imgs/screens/krakenjs.png"
 	},
 	{
 		"name":"Babel", 

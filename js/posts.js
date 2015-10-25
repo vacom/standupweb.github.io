@@ -1,5 +1,19 @@
 var posts = [
 	{
+		"name":"Passportjs", 
+		"date":"25/10/2015",
+		"tags":"Code Web",
+		"url":"http://passportjs.org/",
+		"imgSrc":"imgs/screens/passportjs.png"
+	},
+	{
+		"name":"Timber", 
+		"date":"25/10/2015",
+		"tags":"Code Web Html css",
+		"url":"http://shopify.github.io/Timber/",
+		"imgSrc":"imgs/screens/timber.png"
+	},
+	{
 		"name":"Krakenjs", 
 		"date":"24/10/2015",
 		"tags":"Code Web",

@@ -1,5 +1,12 @@
 var posts = [
 	{
+		"name":"Chocolatechip UI", 
+		"date":"26/10/2015",
+		"tags":"Web css Html",
+		"url":"http://chocolatechip-ui.com/",
+		"imgSrc":"imgs/screens/chocolatechip.png"
+	},
+	{
 		"name":"Passportjs", 
 		"date":"25/10/2015",
 		"tags":"Code Web",

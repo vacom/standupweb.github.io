@@ -1,5 +1,12 @@
 var posts = [
 	{
+		"name":"Heap Analytics", 
+		"date":"26/10/2015",
+		"tags":"Web Tools",
+		"url":"https://heapanalytics.com/",
+		"imgSrc":"imgs/screens/heapanalytics.png"
+	},
+	{
 		"name":"Chocolatechip UI", 
 		"date":"26/10/2015",
 		"tags":"Web css Html",

@@ -1,5 +1,12 @@
 var posts = [
 	{
+		"name":"IgniteUI", 
+		"date":"27/10/2015",
+		"tags":"Web Tools Code Html css",
+		"url":"http://www.igniteui.com/",
+		"imgSrc":"imgs/screens/igniteui.png"
+	},
+	{
 		"name":"Heap Analytics", 
 		"date":"26/10/2015",
 		"tags":"Web Tools",

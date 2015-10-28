@@ -1,5 +1,12 @@
 var posts = [
 	{
+		"name":"Angular", 
+		"date":"28/10/2015",
+		"tags":"Web Code",
+		"url":"https://angular.io/",
+		"imgSrc":"imgs/screens/angular.png"
+	},
+	{
 		"name":"Rawcode", 
 		"date":"27/10/2015",
 		"tags":"Web Tools Code",

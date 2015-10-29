@@ -1,5 +1,12 @@
 var posts = [
 	{
+		"name":"Symu", 
+		"date":"29/10/2015",
+		"tags":"Web Design",
+		"url":"https://symu.co/",
+		"imgSrc":"imgs/screens/symu.png"
+	},
+	{
 		"name":"Angular", 
 		"date":"28/10/2015",
 		"tags":"Web Code",

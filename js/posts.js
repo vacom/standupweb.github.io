@@ -1,5 +1,12 @@
 var posts = [
 	{
+		"name":"Stripe", 
+		"date":"30/10/2015",
+		"tags":"Web Tools Code",
+		"url":"https://stripe.com/",
+		"imgSrc":"imgs/screens/stripe.png"
+	},
+	{
 		"name":"Symu", 
 		"date":"29/10/2015",
 		"tags":"Web Design",

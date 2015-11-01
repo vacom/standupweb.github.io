@@ -1,5 +1,12 @@
 var posts = [
 	{
+		"name":"Gantry", 
+		"date":"01/10/2015",
+		"tags":"Web Code Design",
+		"url":"http://gantry.org/",
+		"imgSrc":"imgs/screens/gantry.png"
+	},
+	{
 		"name":"Popmotion", 
 		"date":"31/10/2015",
 		"tags":"Web Code",

@@ -1,5 +1,12 @@
 var posts = [
 	{
+		"name":"Grav", 
+		"date":"02/10/2015",
+		"tags":"Web Code",
+		"url":"http://getgrav.org/",
+		"imgSrc":"imgs/screens/getgrav.png"
+	},
+	{
 		"name":"Gantry", 
 		"date":"01/10/2015",
 		"tags":"Web Code Design",

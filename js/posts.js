@@ -1,5 +1,12 @@
 var posts = [
 	{
+		"name":"UpUp", 
+		"date":"06/11/2015",
+		"tags":"Web Code",
+		"url":"https://www.talater.com/upup/",
+		"imgSrc":"imgs/screens/upup.png"
+	},
+	{
 		"name":"Bootstrap Studio", 
 		"date":"05/11/2015",
 		"tags":"Web Code Html Design",
